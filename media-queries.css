@@ -27,6 +27,145 @@ html,body{
     .heading{
         display: none;
     }
+    .icons{
+        display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(2,1fr);
+    }
+    .pictures{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(4,1fr);
+
+    }
+    .section7{
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    .section8{
+        margin: 0px;
+    }
+    .inline-pictures{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .section9{
+        margin: 0px;
+        padding: 0px;
+    }
+    .section9 img{
+        height: 962px;
+        width:634px;
+        padding: 30px 0px;
+        margin: 0px; 
+     }
+     .white-box{
+        background-color: white;
+        margin-left: 300px;
+
+    
+     }
+     .div-heading{
+        text-align: center;
+        padding-top: 25px;
+        font-family: "Trebuchet MS",Helvetica,sans-serif;
+        font-size: 13px;
+        color: #444939;
+     }
+     .section9 h1{
+        text-align: center;
+        color: #92ac5b;
+        padding-top: 30px;
+        font-size: 30px;
+     }
+     .div-content{
+        text-align: center;
+        padding:20px;
+        line-height: 50px;
+        font-size: 25px;
+        color: #444939;
+     }
+     .section9 button{
+        margin-left: 100px;
+        height: 40px;
+        width: 350px;
+        background-color: #abcb68;
+        color: black;
+        border: none;
+        border-radius: 8px;
+     }
+
+    .section10{
+        margin: 0px;
+        flex-wrap: wrap;
+        
+    }
+    .section11{
+        margin: 0px;
+        padding:0px;
+    }
+    .grid-pictures{
+        display: grid;
+        grid-template-columns:300px 300px 300px;
+        grid-template-rows: repeat(3,fr);
+        padding-top: 10px;
+
+    }
+    .grid-pictures article{
+        text-align: center;
+        display: flex;
+        margin:0px;
+        background-color: whitesmoke;
+        width: 100%;
+        
+    }
+    .grid-pictures img{
+        height:100px;
+        width:100px;
+       
+    }
+    .grid-pictures header p{
+        
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
+    .font-image-div{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        flex-wrap: wrap;
+    }
+    .whole-div{
+        display: grid;
+        padding-left: 25%;
+        
+        
+    } 
+    .first{
+        margin: 0px;
+       display: inline-block;
+       
+    }
+    .second{
+        margin: 0px;
+        padding-top: 50px;
+       
+    }
+    .third{
+        margin: 0px;
+        padding-top: 50px;
+        
+    }
+    .fourth{
+        margin: 0px;
+        padding-top: 50px;
+        
+    }
  
     }
  
