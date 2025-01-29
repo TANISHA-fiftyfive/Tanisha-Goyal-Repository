@@ -25,37 +25,37 @@
     font-size: 15px;
 }
 
-.img1{
+.facebook1{
     
     height:20px;
     width:20px;
     margin-left: 15px;
 }
-.img2{
+.instagram1{
     
     height:20px;
     width:20px;
     margin-left: 15px;
 }
-.img3{
+.pinterest1{
     
     height:20px;
     width:20px;
     margin-left: 15px;
 }
-.img4{
+.tiktok1{
     
     height:20px;
     width:20px;
     margin-left: 15px;
 }
-.img5{
+.spotify1{
     
     height:20px;
     width:20px;
     margin-left: 15px;
 }
-.img6{
+.email1{
     
     height:17px;
     width:20px;
@@ -286,12 +286,13 @@ mark{
 }
 .icons{
     display: flex;
-    margin-left: 300px;
+    /* margin-left: 300px;
     padding-left: 250px;
     margin-right: 280px;
     padding-top: 30px;
-    padding-bottom: 35px;
+    padding-bottom: 35px; */
     background-color: whitesmoke;
+    justify-content: center;
 }
 .icons img{
     height:120px;
@@ -452,10 +453,7 @@ mark{
     padding-bottom: 40px;
  }
  .inline-pictures{
-     
      display: flex;
-     
-     
      gap: 2px;
  
  }
