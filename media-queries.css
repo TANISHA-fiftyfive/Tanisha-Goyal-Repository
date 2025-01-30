@@ -2,41 +2,34 @@ html,body{
     overflow-x:hidden ;
     max-width: 100%;
 }
- 
 @media screen and (max-width: 991px){
-    
     #content{
- 
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
     }
-    
     #left-content{
      display: none;
     }
- 
     #right-content{
         display: grid;
         grid-template-columns: 250px 250px 250px;
         gap: 50px;
     }
-     
     .heading{
         display: none;
     }
     .icons{
         display: grid;
-     grid-template-columns: repeat(4,1fr);
-     grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
     }
     .pictures{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-     grid-template-rows: repeat(4,1fr);
-
+        grid-template-rows: repeat(4,1fr);
     }
     .section7{
         margin: 0px;
@@ -65,8 +58,6 @@ html,body{
      .white-box{
         background-color: white;
         margin-left: 300px;
-
-    
      }
      .div-heading{
         text-align: center;
@@ -97,11 +88,9 @@ html,body{
         border: none;
         border-radius: 8px;
      }
-
     .section10{
         margin: 0px;
         flex-wrap: wrap;
-        
     }
     .section11{
         margin: 0px;
@@ -112,7 +101,6 @@ html,body{
         grid-template-columns:300px 300px 300px;
         grid-template-rows: repeat(3,fr);
         padding-top: 10px;
-
     }
     .grid-pictures article{
         text-align: center;
@@ -120,19 +108,15 @@ html,body{
         margin:0px;
         background-color: whitesmoke;
         width: 100%;
-        
     }
     .grid-pictures img{
         height:100px;
         width:100px;
-       
     }
     .grid-pictures header p{
-        
         color:black;
         font-weight: bold;
         font-size: 15px;
-        
     }
     .font-image-div{
         display: flex;
@@ -142,31 +126,24 @@ html,body{
     }
     .whole-div{
         display: grid;
-        padding-left: 25%;
-        
-        
+        padding-left: 25%;  
     } 
     .first{
         margin: 0px;
        display: inline-block;
-       
     }
     .second{
         margin: 0px;
         padding-top: 50px;
-       
     }
     .third{
         margin: 0px;
         padding-top: 50px;
-        
     }
     .fourth{
         margin: 0px;
         padding-top: 50px;
-        
     }
- 
     }
  
   
