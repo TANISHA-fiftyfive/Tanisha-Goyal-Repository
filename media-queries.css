@@ -102,7 +102,7 @@ html,body{
         grid-template-rows: repeat(3,fr);
         padding-top: 10px;
     }
-    .grid-pictures article{
+    .grid-pictures{
         text-align: center;
         display: flex;
         margin:0px;
@@ -113,7 +113,7 @@ html,body{
         height:100px;
         width:100px;
     }
-    .grid-pictures header p{
+    .grid-pictures p{
         color:black;
         font-weight: bold;
         font-size: 15px;
